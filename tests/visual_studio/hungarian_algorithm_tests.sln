@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hungarian_algorithm_tests", "hungarian_algorithm_tests.vcxproj", "{C7C48598-857D-4BF6-BF3C-17099975266C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF6D6167-1907-400F-86A6-C3D921F3AA1B} = {CF6D6167-1907-400F-86A6-C3D921F3AA1B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hungarian_algorithm", "..\..\visual_studio\hungarian_algorithm.vcxproj", "{CF6D6167-1907-400F-86A6-C3D921F3AA1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7C48598-857D-4BF6-BF3C-17099975266C}.Debug|x64.ActiveCfg = Debug|x64
+		{C7C48598-857D-4BF6-BF3C-17099975266C}.Debug|x64.Build.0 = Debug|x64
+		{C7C48598-857D-4BF6-BF3C-17099975266C}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7C48598-857D-4BF6-BF3C-17099975266C}.Debug|x86.Build.0 = Debug|Win32
+		{C7C48598-857D-4BF6-BF3C-17099975266C}.Release|x64.ActiveCfg = Release|x64
+		{C7C48598-857D-4BF6-BF3C-17099975266C}.Release|x64.Build.0 = Release|x64
+		{C7C48598-857D-4BF6-BF3C-17099975266C}.Release|x86.ActiveCfg = Release|Win32
+		{C7C48598-857D-4BF6-BF3C-17099975266C}.Release|x86.Build.0 = Release|Win32
+		{CF6D6167-1907-400F-86A6-C3D921F3AA1B}.Debug|x64.ActiveCfg = Debug|x64
+		{CF6D6167-1907-400F-86A6-C3D921F3AA1B}.Debug|x64.Build.0 = Debug|x64
+		{CF6D6167-1907-400F-86A6-C3D921F3AA1B}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF6D6167-1907-400F-86A6-C3D921F3AA1B}.Debug|x86.Build.0 = Debug|Win32
+		{CF6D6167-1907-400F-86A6-C3D921F3AA1B}.Release|x64.ActiveCfg = Release|x64
+		{CF6D6167-1907-400F-86A6-C3D921F3AA1B}.Release|x64.Build.0 = Release|x64
+		{CF6D6167-1907-400F-86A6-C3D921F3AA1B}.Release|x86.ActiveCfg = Release|Win32
+		{CF6D6167-1907-400F-86A6-C3D921F3AA1B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51DDBAC4-25B8-4998-B15A-A18FF6C46FD7}
+	EndGlobalSection
+EndGlobal
