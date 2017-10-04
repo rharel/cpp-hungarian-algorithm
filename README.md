@@ -3,7 +3,7 @@ The [Hungarian algorithm](https://en.wikipedia.org/wiki/Hungarian_algorithm) is 
 
 > Given `n > 0` workers, `n` tasks, and the cost matrix `C` whose member `C(i, j)` represents the cost of assigning the `i`-th worker to the `j`-th task, find an assignment of workers to tasks with minimal total cost.
 
-The Hungarian algorithm solves this problem in O(n<sup>3</sup>) time.
+It does so in O(n<sup>3</sup>) time.
 
 # Directory structure
 
